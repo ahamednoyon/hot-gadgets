@@ -1,0 +1,14 @@
+.logo{
+    width: 120px;
+}
+.product{
+    width: 600px;
+    margin: 0 auto;
+}
+
+
+#banner{
+    background: url(../images/bg/bg-1.png);
+    background-repeat: no-repeat;
+    background-position: 550px 0;
+}
