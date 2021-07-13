@@ -12,3 +12,23 @@
     background-repeat: no-repeat;
     background-position: 550px 0;
 }
+.see-all-link{
+    text-decoration: none;
+    color: orange;
+    font-weight: 500;
+}
+
+.btn i{
+    font-size: 14px;
+}
+
+.btn{
+    text-transform: uppercase;
+}
+
+.single-card{
+    border: none;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
