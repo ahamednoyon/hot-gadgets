@@ -5,14 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hot Gadgets</title>
+    <link rel="shortcut icon" href="images/logo/logo.png" type="image/x-icon">
+    <!-- fontawesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- style css -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- navbar stat -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
             <div class="container">
               <a class="navbar-brand" href="#"><img class="logo" src="images/logo/logo.png" alt="logo"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -142,7 +146,7 @@
     </section>
     <!-- smartphone section end -->
     <!-- laptop section start -->
-    <section id="products" class="py-3">
+    <section id="products" class="py-5">
       <div class="container">
         <div class="section-title d-flex align-items-center justify-content-between py-2">
           <h3>Laptop</h3>
@@ -193,6 +197,66 @@
       </div>
     </section>
     <!-- laptop section end -->
+    <!-- categori section start -->
+    <section id="categories" class="py-5">
+      <div class="container">
+        <div class="section-title py-3">
+          <h3 class="text-center categori">Categories</h3>
+        </div>
+
+        <div class="row py-5 my-4">
+          <div class="col-md-6">
+            <div class="row align-items-center justify-content-between">
+              <div class="col-md-6 d-flex align-items-center justify-content-center">
+                <div class="single-item p-4 my-3 my-md-0 shadow-lg rounded-3 text-center">
+                  <img class="w-75 mb-3" src="images/Categories/bag.png" alt="">
+                  <h5>Bag</h5>
+                </div>
+              </div>
+              <div class="col-md-6 d-flex flex-column align-items-center">
+                <div class="single-item p-4 my-3 shadow-lg rounded-3 text-center">
+                  <img class="w-75 mb-3" src="images/Categories/perfume.png" alt="">
+                  <h5>Beauty</h5>
+                </div>
+                <div class="single-item p-4 px-4 my-3 shadow-lg rounded-3 text-center">
+                  <img class="w-75 mb-3" src="images/Categories/shoe.png" alt="">
+                  <h5>Shoes</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="single-item">
+              <img class="w-100" src="images/Categories/pale-order.png" alt="">
+            </div>
+          </div>
+        </div>
+      
+      </div>
+      
+
+    </section>
+    <!-- categori section end -->
+    <!-- footer start -->
+    <footer class="footer py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-12 mb-1 mb-md-0">
+            <p class="text-center text-md-start m-0 text-muted">&copy; Copyright All rights reserved by Noyon Rahman.</p>
+          </div>
+          <div class="col-md-6">
+            <ul class="m-0 text-center text-md-end">
+              <li class="d-inline"><a class="text-decoration-none text-muted" href="#">FAQS</a></li>
+              <li class="d-inline ms-md-1"><a class="text-decoration-none text-muted" href="#">Privacy</a></li>
+              <li class="d-inline ms-md-1"><a class="text-decoration-none text-muted" href="#">Policy</a></li>
+              <li class="d-inline ms-md-1"><a class="text-decoration-none text-muted" href="#">Support</a></li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer start -->
 
 
 
@@ -200,7 +264,7 @@
 
 
 
-
+     <!--bootstrap js -->
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
