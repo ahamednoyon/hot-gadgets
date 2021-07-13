@@ -11,7 +11,8 @@
     background: url(../images/bg/bg-1.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: 550px 0;
+    background-position: 550px 35px;
+    background-size: auto;
     
 }
 
